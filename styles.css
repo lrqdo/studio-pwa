@@ -1,0 +1,19 @@
+body {
+  height: 100%;
+  padding-top: 18px;
+  padding-right: 18px;
+  padding-left: 18px;
+  padding-bottom: 0;
+  font-size: 22px;
+  font-family: Georgia, "Times New Roman", serif;
+  color: #333333;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+p,
+li {
+  line-height: 1.8;
+}
+ul {
+}
