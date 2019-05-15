@@ -1,11 +1,11 @@
 {
   "short_name": "My first PWA",
   "name": "Me first Pregressive Web App",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "/studio-pwa/",
+  "scope": "/studio-pwa/",
   "icons": [
     {
-      "src": "/icon-192.png",
+      "src": "/studio-pwa/icon-192.png",
       "type": "image/png",
       "sizes": "192x192"
     }

@@ -3,7 +3,11 @@ self.addEventListener("install", event => {
     caches
       .open("my-cache")
       .then(cache => {
-        return cache.addAll(["/index.html", "main.js", "styles.css"]);
+        return cache.addAll([
+          "/studio-pwa/index.html",
+          "/studio-pwa/main.js",
+          "/studio-pwa/styles.css"
+        ]);
       })
       .then(res => {
         return res;
